@@ -1,8 +1,4 @@
 class PagesController < ApplicationController
-  def home
+  def receiving
   end
-
-  def about
-  end
-
 end

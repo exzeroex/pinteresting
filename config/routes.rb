@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'receiving' => 'pages#receiving'
+
   root'pages#home' 
 
   get "about" => "pages#about"
